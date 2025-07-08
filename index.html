@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Wallace</h1>
+
+        <p>Olá, meu nome é Wallace. Tenho 28 anos e sou de Araraquara. Gosto de sair de casa.</p>
+
+        <ul>
+            <li>Viajar</li>
+            <li>Andar de skate</li>
+            <li>Balada</li>
+        </ul>
+
+        <div class="imagens">
+            <img src="https://www.mercadoeeventos.com.br/wp-content/uploads/2016/06/Viagem.jpg" alt="Viajar">
+        </div>
+
+        <table>
+            <tr>
+                <td><img src="https://thumbs.dreamstime.com/b/pagode-no-por-do-sol-58584754.jpg" alt="China"></td>
+                <td><img src="https://images.travelclass.tur.br/uploads/2019/01/raja-ampat-indonesia-uma-baia-protegida-rodeada-por-ilhas-altas-de-calcario-abriga-belas-cadeias-de-recifes-1024x683.jpg" alt="Indonésia"></td>
+                <td><img src="https://viagemeturismo.abril.com.br/wp-content/uploads/2016/10/177493849.jpeg?quality=70&strip=info&w=925&w=636" alt="Itália"></td>
+            </tr>
+            <tr>
+                <td>China</td>
+                <td>Indonésia</td>
+                <td>Itália</td>
+            </tr>
+        </table>
+
+        <a href="https://www.tripadvisor.com.br/" target="_blank">Visite meu site favorito: TripAdvisor</a>
+
+        <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+        <p id="mensagem"></p>
+    </div>
+
+    <script>
+        function mostrarMensagem() {
+            document.getElementById("mensagem").textContent = "Bem-vindo à minha página! Que você tenha um ótimo dia!";
+        }
+    </script>
+
+</body>
+</html>
